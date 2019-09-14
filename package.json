@@ -1,0 +1,23 @@
+{
+  "name": "blockade-kadima",
+  "version": "1.0.0",
+  "description": "Kadima Smart Contract",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalantechnologies/blockade-kadima.git"
+  },
+  "author": "Jaikishan Jalan (jjalan@jalantechnologies.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalantechnologies/blockade-kadima/issues"
+  },
+  "homepage": "https://github.com/jalantechnologies/blockade-kadima#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.3.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

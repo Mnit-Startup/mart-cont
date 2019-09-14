@@ -69,6 +69,15 @@ module.exports = {
        skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
      },
 
+     mainnet: {
+      provider: () => new HDWalletProvider(privateKey, `https://ropsten.infura.io/v3/2e513d0109a84fa7801e72e887f43622`),
+      network_id: 1,       // Mainnet's id
+      gas: 8000000,        // Mainnet gas limit
+      confirmations: 2,    // # of confs to wait between deployments. (default: 0)
+      timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+      skipDryRun: false     // Skip dry run before migrations? (default: false for public nets )
+    },
+
     // Useful for private networks
     // private: {
       // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
